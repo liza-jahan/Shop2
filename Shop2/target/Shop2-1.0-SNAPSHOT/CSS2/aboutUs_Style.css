@@ -1,0 +1,473 @@
+
+html,body{
+
+    color: black;
+    background: #fff;
+   font-size: 62.5%;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto',sans-serif;
+}
+*{
+
+
+    margin: 0;
+    padding: 0;
+  /*  font-family: 'Roboto',sans-serif;*/
+}
+/*first part*/
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    height: 150px;
+    width: auto;
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.log {
+    display:flex;
+    height:150px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.log img {
+
+    border-radius: 60px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 24px 28px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+/*2nd*/
+/*2nd part*/
+.row{
+    margin:auto ;
+    max-width: 118rem;
+
+}
+.firstsection{
+    height: 100vh;
+    background: linear-gradient(rgba(39, 137, 134, 0.6), rgba(75, 117, 142, 0.62)) ,url(../img/mainPage.jpg) no-repeat center top / cover;
+    overflow: hidden;
+    position: relative;
+}
+  .color{
+
+
+      border: 0 solid red;
+      padding-left: 600px;
+      padding-top: 150px;
+      padding-right: 300px;
+      letter-spacing: -0.03em;
+  }
+.mid{
+    text-align: center;
+
+}
+.blue{
+    font-size: 70px;
+
+}
+.cleafix{
+
+
+    font-size: 1.5rem;
+    text-align: justify;
+  /*  border: 0 solid red;*/
+    padding-left: 540px;
+    padding-top: 9px;
+    padding-right: 100px;
+
+
+
+}
+.spam{
+    display: block;
+    color: midnightblue;
+
+
+
+}
+
+
+
+/*h1{
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    color: blueviolet;
+    letter-spacing: .3rem;
+    margin: 1rem 0;
+    display: inline-block;
+
+
+}
+h1::before{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background:blueviolet ;
+    display: block;
+}*/
+/*h1::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background:blueviolet ;
+    display: block;
+}
+.hero-text-box span{
+    display:block;
+    font-size: 2.3rem;
+    color: blueviolet;
+
+}
+.next-section{
+
+    text-align: center;
+
+}
+.next-section a{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 4.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.next-section a ion-icon{
+    font-size: 5rem;
+    color: blueviolet;
+
+}*/
+/*==================
+ About section
+ =====================*/
+section{
+    padding: 12rem 0;
+}
+section .about{
+    background-color: #f6f6f6;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:4rem;
+    padding-top: 7px;
+}
+.paul{
+    width: 100%;
+    clip-path: polygon(30% 0%,70% 0%,100% 30%,100% 70%,70% 100%,30% 100%,0% 70%, 0% 30%);
+
+
+}
+.grid-about-item{
+    padding-top: 150px;
+}
+
+h4{
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.6rem;
+}
+.about-description{
+    margin: 3rem 0;
+
+}
+.btn{
+    width: 200px;
+    background: black;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    display:inline-block;
+    text-align: center;
+    padding: 10px 0px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.btn-full{
+    background: brown;
+}
+.btn-full:hover{
+    background: transparent;
+    color: brown;
+    border-color: brown;
+
+}
+/*==================
+process section
+=====================*/
+#process{
+    background: #f6f6f6;
+}
+h2{
+    font-size: 4rem;
+
+}
+.section-title{
+    text-align: center;
+    margin-bottom:4.5rem;
+}
+.section-title span{
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    display: inline-block;
+}
+.process-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1rem;
+}
+.process-grid-item{
+    background: black;
+    color: white;
+    text-align: center;
+    padding:5rem 0;
+}
+.process-grid-item ion-icon{
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+
+}
+.process-grid-item h4{
+    text-transform: uppercase;
+}
+.process-grid-item:nth-child(1){
+    background: blue;
+}
+.process-grid-item:nth-child(2){
+    background: brown;
+}
+.process-grid-item:nth-child(3){
+
+    background: crimson;
+}
+.process-grid-item:nth-child(4){
+    background: blue;
+}
+/*===================
+exprience  section
+====================*/
+#exp{
+    background:yellow url(../img/E.jpg) no-repeat center  / cover fixed;
+}
+.exp-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+}
+.exp-grid-item{
+    background: rgba(0, 0, 0, 0.861);
+    color: #fff;
+    padding: 3rem 2.5rem;
+}
+h3{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+.job{
+    margin: 4.5rem 0;
+}
+.job span{
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    display: inline-block;
+}
+hr{
+    border: 0;
+    border-bottom: 1px solid white;
+}
+/*==================
+work section
+ =====================*/
+section.work{
+    padding: 8px 0;
+
+}
+.work-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1px;
+    grid-auto-rows: 18rem;
+
+}
+
+.work-grid-item{
+    background: mediumslateblue;
+
+}
+.work-grid-item img{
+    background: mediumslateblue;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+.work-grid-item:nth-child(2)
+{
+    background:mediumslateblue url(../img/tab1.jpg) no-repeat center / cover;
+
+}
+.work-grid-item:nth-child(3)
+{
+    background: mediumslateblue url(../img/laptop.webp) no-repeat center / cover;
+
+}
+.work-grid-item:nth-child(4)
+{
+    background: url(../img/phn2.jpg) no-repeat center / cover;
+
+}
+.work-grid-item:nth-child(5)
+{
+    background: url(../img/phn2.webp) no-repeat center / cover;
+    grid-column: 1/3;
+
+}
+.work-grid-item:nth-child(6)
+{
+    background: url(../img/tab2.jpg) no-repeat center / cover;
+
+}
+.work-grid-item:nth-child(7)
+{
+    background: url(../img/tab3.jpg) no-repeat center / cover;
+
+}
+/*footer*/
+#footer{
+
+    padding:7rem 0;
+    background: #222;
+    text-align: center;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.social-list{
+    margin-bottom:1.5rem;
+}
+.social-list ul li{
+    display: inline-block;
+}
+
+.social-list ul li a ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    border-right: 1px solid  #fff;
+    padding-right: 1rem;
+}
+.black{
+    color: white;
+}
+.social-list ul li:hover a ion-icon{
+    color: blueviolet;
+}
+.copyright a{
+    color: #ff2b4a;
+}

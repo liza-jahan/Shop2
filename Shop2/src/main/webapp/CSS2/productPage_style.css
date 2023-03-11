@@ -1,0 +1,274 @@
+/*1st part*/
+html,body{
+
+    color: black;
+    background: #fff;
+    font-size: 62.5%;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto',sans-serif;
+}
+*{
+
+
+    margin: 0;
+    padding: 0;
+    /*  font-family: 'Roboto',sans-serif;*/
+}
+/*first part*/
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    height: 150px;
+    width: auto;
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.log {
+    display:flex;
+    height:150px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.log img {
+
+    border-radius: 60px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 24px 28px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+/*2nd part*/
+p{
+    color: rgb(174, 127, 255);
+    font-size: 14px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+.productsBox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:2px 2px 5px rgb(116, 109, 109);;
+}
+.productSection{
+    width: 90%;
+    background-color: darkslateblue;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-size: 1000px;
+
+}
+.productSection > h3{
+    color: rgb(12, 212, 59);
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    font-weight: 700;
+}
+.productsBox img{
+    height: 225px;
+
+}
+.productsBox a{
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.bybtn{
+    position: absolute;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+    background: linear-gradient(120deg,red,yellow);
+    color: beige;
+
+    animation: fade 0.2s;
+}
+.productsBox:hover .bybtn{
+    display: flex;
+    color: rgb(19, 45, 243);
+    background-color: green;
+}
+a .taka{
+    font-size: 21px;
+
+}
+/*footer*/
+#footer{
+
+    padding:7rem 0;
+    background: #222;
+    text-align: center;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.social-list{
+    margin-bottom:1.5rem;
+}
+.social-list ul li{
+    display: inline-block;
+}
+
+.social-list ul li a ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    border-right: 1px solid  #fff;
+    padding-right: 1rem;
+}
+.black{
+    color: white;
+}
+.social-list ul li:hover a ion-icon{
+    color: blueviolet;
+}
+.copyright a{
+    color: #ff2b4a;
+}
+/*next*/
+.pop{
+    text-align: center;
+    font-size: 20px;
+    padding: 3px 0;
+}
+.pop a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+   font-size:  15px;
+
+}
+
+.pop a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 5px;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 15px;
+}
+
+.round {
+    border-radius: 50%;
+}
